@@ -1031,9 +1031,44 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Card for mobile
+# Product cards
 --------------------------------------------------------------*/
-#mobileCards .card {
+
+.horizontalScrollContainer {
+    overflow-x: hidden;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.productCard {
+    min-width: 70vw;
+    min-height: 90vh;
+    max-height: 90vh;
+    position: sticky;
+    left: 10vw;
+    top: 5vh;
+    background-color: #f0e1ce;
+    color: #E9A181;
+    border-radius: 25px;
+    border: 1px solid #2b4446;
+    overflow: hidden;
+    padding: 25px;
+    margin-right: 20vw;
+}
+
+.productCardTitle {
+    color: cadetblue !important;
+}
+
+.productCardDescription {
+    color: #E9A181 !important;
+}
+
+/*--------------------------------------------------------------
+# Product cards mobile
+--------------------------------------------------------------*/
+#productCardMobile .card {
     position: sticky;
     top: 5em;
     transform-origin: center top;
@@ -1041,84 +1076,84 @@ section {
     height: 300px;
 }
 
-#mobileCards .card:nth-child(0) {
+#productCardMobile .card:nth-child(0) {
     transform: translateY(0px);
 }
 
-#mobileCards .card:nth-child(1) {
+#productCardMobile .card:nth-child(1) {
     transform: translateY(16px);
 }
 
-#mobileCards .card:nth-child(2) {
+#productCardMobile .card:nth-child(2) {
     transform: translateY(32px);
 }
 
-#mobileCards .card:nth-child(3) {
+#productCardMobile .card:nth-child(3) {
     transform: translateY(48px);
 }
 
-#mobileCards .card:nth-child(4) {
+#productCardMobile .card:nth-child(4) {
     transform: translateY(64px);
 }
 
-#mobileCards .card:nth-child(5) {
+#productCardMobile .card:nth-child(5) {
     transform: translateY(80px);
 }
 
-#mobileCards .card:nth-child(6) {
+#productCardMobile .card:nth-child(6) {
     transform: translateY(96px);
 }
 
-#mobileCards .card:nth-child(7) {
+#productCardMobile .card:nth-child(7) {
     transform: translateY(112px);
 }
 
-#mobileCards .card:nth-child(8) {
+#productCardMobile .card:nth-child(8) {
     transform: translateY(128px);
 }
 
-#mobileCards .card:nth-child(9) {
+#productCardMobile .card:nth-child(9) {
     transform: translateY(144px);
 }
 
-#mobileCards .card:nth-child(10) {
+#productCardMobile .card:nth-child(10) {
     transform: translateY(160px);
 }
 
-#mobileCards .card:nth-child(11) {
+#productCardMobile .card:nth-child(11) {
     transform: translateY(176px);
 }
 
-#mobileCards .card:nth-child(12) {
+#productCardMobile .card:nth-child(12) {
     transform: translateY(192px);
 }
 
-#mobileCards .card:nth-child(13) {
+#productCardMobile .card:nth-child(13) {
     transform: translateY(208px);
 }
 
-#mobileCards .card:nth-child(14) {
+#productCardMobile .card:nth-child(14) {
     transform: translateY(224px);
 }
 
-#mobileCards .card:nth-child(15) {
+#productCardMobile .card:nth-child(15) {
     transform: translateY(240px);
 }
 
-#mobileCards .card {
+#productCardMobile .card {
     border-radius: 16px;
     border: none;
     box-shadow: 2px 4px 28px rgba(0, 0, 0, 0.5);
     background-color: var(--primary);
 }
 
-#mobileCards .card-body {
+#productCardMobile .card-body {
     background-color: var(--primary);
     border: none;
     border-radius: 16px;
 }
 
-#mobileCards .card img {
+#productCardMobile .card img {
     width: 100%;
 }
 
